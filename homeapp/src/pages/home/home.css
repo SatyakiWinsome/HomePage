@@ -576,11 +576,11 @@ background: #a70404 !important;
     padding: 3%;
     font-size: 1rem;
     font-weight: 900;
+    width: fit-content;
 }
 /* =================================================================================== */
 .portion8{
     background: url(../../assets/images/medical_tourism_bg.jpg);
-    min-height: 100vh;
     z-index: -1;
     opacity: 0.85;
     background-repeat: no-repeat;
@@ -618,10 +618,209 @@ background: #a70404 !important;
 @media only screen and (max-width: 950px){
     .bannerHome{
         margin-left: 0;
-        margin-right: 0;
+        margin-right: 3%;
         margin-top: 5%;
-        background-size: contain;
         background-position: top;
+    }
+    .bannerContents{
+        text-align: center;
+        padding-top: 10%;
+        padding-left: 12%;
+        font-size: 1rem;
+        color: #000099;
+        font-weight: 700;
+    }
+    .searchBar{
+        width: 100% !important;
+    }
+    .search{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        position: relative;
+        justify-content: center;
+    }
+    .portion1{
+        grid-template-columns: 1fr;
+    }
+    .p11{
+        margin-top: 0;
+        min-width:100%;
+        margin-left: 0%;
+        padding-bottom: 2%;
+    }
+    .p12{
+        margin-top: 0;
+        min-width:100%;
+        padding-bottom: 2%;
+    }
+    .p13{
+        margin-top: 0;
+        min-width:100%;
+        padding-bottom: 2%;
+    }
+    .portion2{
+        display: grid;
+        justify-items: center;
+    }
+    .portion21{
+        border: none;
+        width: 90%;
+    }
+    .portion21Header{
+        text-align: center;
+    }
+    .portion221{
+       display: grid;
+       justify-items: center;     
+    }
+    .portion222{
+        display: grid;
+        justify-items: center;        
+    }
+    .portion3{
+        display: grid;
+    }
+    .part3Imgcontainer{
+        justify-self: center;
+    }
+    .portion3Img{
+        height: auto;
+        max-width: 120%;
+    }
+    .part3Content{
+        margin-top: 5%;
+    }
+    .part3ContentH1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 0;
+    }
+    .part3ContentH2{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .portion5{
+        display: grid;
+        margin-right: 5%;
+    }
+    .portion7{
+        display: grid;
+        margin-right: 5%
+    }
+    .portion62{
+        display: grid;
+        margin-right: 5%;
+    }
+    .p621{
+        width: 100%;
+        text-align: center;
+    }
+    .portion8{
+        background-size: contain;
+    }
+    .portion8Content{
+        margin-left: 25%;
+        text-align: center;
+    }
+    .p8Btn{
+        width: max-content !important;
+        margin-left: 0 !important;
+    }
+    .storeIconsContainer{
+        display: grid;
+    }
+    .storeContainer1{
+        border: none;
+    }
+    .p712{
+        display: grid;
+    }
+    .p713{
+        display: grid;
+    }
+    .portion51{
+        width: 100%;
+    }
+    .imgContentCard{
+        display: grid;
+    }
+    .cardDescription{
+        text-align: left;
+    }
+    .customCard{
+        width: 100%;
+    }
+    .circularBtn{
+        display: none;
+    }
+    .p13{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .p132{
+        margin-top: 5%;
+        text-align: center;
+    }
+    .p132Btn1{
+        width: 30% !important;
+    }
+    .p1323{
+        margin-right: 0;
+        text-align: center;
+    }
+    .portion51{
+        margin: 0%;
+    }
+    .portion6{
+        display: none;
+    }
+    .cx101{
+        justify-self: center !important;
+    }
+    .p131{
+        transform: rotate(0deg);
+    }
+    .mainHomeContainer{
+        margin-left: 5%;
+    }
+    .x5H2{
+        text-align: center !important;
+    }
+    .p622{
+        justify-self: center;
+        width: 100%;
+    }
+    
+    .p623{
+        justify-self: center;
+        width: 100%;
+    }
+    .p624{
+        justify-self: center;
+        width: 100%;
+    }
+    
+    .p625{
+        justify-self: center;
+    }
+    .part3Nos{
+        display: none;
+    }
+    .row{
+        margin-right: 5% !important;
+    }
+    .portion4{
+        margin-left: 5%;
+    }
+    .portion3{
+        margin-right: 5%;
+    }
+    .part3ContentH2{
+        font-size: 2rem;
+    }
+    .part3Content{
+        padding-right: 5%;
     }
 }
 /* =============================================================================== */

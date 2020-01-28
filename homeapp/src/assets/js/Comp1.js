@@ -5,7 +5,7 @@ function Comp1() {
   return (
     <div className="portion4">
                     <div class="row">
-                        <div class="col-md-2 col-sm-12 col1">
+                        <div class="col-md-12 col-sm-12 col-lg-2 col1">
                             <p class="para1">
                                 <h2 style={{ fontSize: "3rem" }} class="expert">
                                 <span class="blue1">+</span>
@@ -19,7 +19,7 @@ function Comp1() {
                                 </button>
                             </p>
                         </div>
-                        <div class="col-md-10 col-sm-12 col2">
+                        <div class="col-md-12 col-sm-12 col-lg-10">
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                 <button type="button" class="btn b2">

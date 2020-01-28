@@ -145,12 +145,12 @@ class Home extends React.Component{
                         <div className="portion221">
                             <div className="customCard">
                                 <div className="imgContentCard">
-                                    <span><img src={Pic1C2} alt="pic1c2"></img></span>
-                                    <span style={{marginTop: "5%"}}>
+                                    <div><img src={Pic1C2} alt="pic1c2"></img></div>
+                                    <div style={{marginTop: "5%"}} className="cx101">
                                         <div className="a101">Doctor</div>
                                         <div className="a102">Consultation</div>
                                         <div style={{textAlign: "left"}}><Button className="btnPart2">Read More...</Button></div>
-                                    </span>
+                                    </div>
                                 </div>
                                 <div className="cardDescription">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -160,11 +160,11 @@ class Home extends React.Component{
                                 <div className="customCard">
                                     <div className="imgContentCard">
                                         <span><img src={Pic2C2} alt="pic1c2"></img></span>
-                                        <span style={{marginTop: "5%"}}>
+                                        <div style={{marginTop: "5%"}} className="cx101">
                                             <div className="a101">Doctor</div>
                                             <div className="a102">Consultation</div>
                                             <div style={{textAlign: "left"}}><Button className="btnPart2">Read More...</Button></div>
-                                        </span>
+                                        </div>
                                     </div>
                                     <div className="cardDescription">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -177,11 +177,11 @@ class Home extends React.Component{
                                 <div className="customCard">
                                     <div className="imgContentCard">
                                         <span><img src={Pic3C2} alt="pic1c2"></img></span>
-                                        <span style={{marginTop: "5%"}}>
+                                        <div style={{marginTop: "5%"}} className="cx101">
                                             <div className="a101">Doctor</div>
                                             <div className="a102">Consultation</div>
                                             <div style={{textAlign: "left"}}><Button className="btnPart2">Read More...</Button></div>
-                                        </span>
+                                        </div>
                                     </div>
                                     <div className="cardDescription">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -193,11 +193,11 @@ class Home extends React.Component{
                                 <div className="customCard">
                                     <div className="imgContentCard">
                                         <span><img src={Pic4C2} alt="pic1c2"></img></span>
-                                        <span style={{marginTop: "5%"}}>
+                                        <div style={{marginTop: "5%"}} className="cx101">
                                             <div className="a101">Doctor</div>
                                             <div className="a102">Consultation</div>
                                             <div style={{textAlign: "left"}}><Button className="btnPart2">Read More...</Button></div>
-                                        </span>
+                                        </div>
                                     </div>
                                     <div className="cardDescription">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
